@@ -18,15 +18,12 @@
   }
   $("#owl-demo").owlCarousel({
  
-    navigation : true, // Show next and prev buttons
-
-    slideSpeed : 400,
-    paginationSpeed : 600,
-
+    navigation : true, // Show next and prev button
     items : 1, 
     loop:true,
     autoplay:true,
-    autoplayTimeout : 2000,
+    autoplayTimeout : 4000,
+    autoplaySpeed : 3000,
     autoplayHoverPause : true,
     itemsDesktop : false,
     itemsDesktopSmall : false,

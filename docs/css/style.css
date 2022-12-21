@@ -2213,6 +2213,11 @@ select.form-control:not([size]):not([multiple]) {
   height: auto;
 }
 
+.banner-carrosel {
+  position: relative;
+  background-color: #7c7491;
+}
+
 .single-speaker .block {
   padding-bottom: 70px;
   border-bottom: 1px solid #e5e5e5;

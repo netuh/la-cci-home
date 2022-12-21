@@ -21,8 +21,8 @@ var path = {
     images: "source/images/**/*.+(png|jpg|gif|svg)",
   },
   build: {
-    dirBuild: "doc/",
-    dirDev: "doc/",
+    dirBuild: "docs/",
+    dirDev: "docs/",
   },
 };
 

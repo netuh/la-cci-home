@@ -1,6 +1,6 @@
 (function ($) {
   'use strict';
-    
+
   // navbarDropdown
   if ($(window).width() < 992) {
     $('.main-nav [data-toggle="dropdown"]').on('click', function () {
@@ -9,6 +9,24 @@
       }, 300);
     });
   }
+  $("#owl-demo").owlCarousel({
+ 
+    navigation : true, // Show next and prev buttons
+
+    slideSpeed : 400,
+    paginationSpeed : 600,
+
+    items : 1, 
+    loop:true,
+    autoplay:true,
+    autoplayTimeout : 2000,
+    autoplayHoverPause : true,
+    itemsDesktop : false,
+    itemsDesktopSmall : false,
+    itemsTablet: false,
+    itemsMobile : false
+
+  });
 
   // -----------------------------
   // To Top Init
@@ -32,23 +50,23 @@
       autoplay: true,
       arrows: true,
       responsive: [{
-          breakpoint: 1440,
-          settings: {
-            slidesToShow: 3
-          }
-        },
-        {
-          breakpoint: 768,
-          settings: {
-            slidesToShow: 2
-          }
-        },
-        {
-          breakpoint: 500,
-          settings: {
-            slidesToShow: 1
-          }
+        breakpoint: 1440,
+        settings: {
+          slidesToShow: 3
         }
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 2
+        }
+      },
+      {
+        breakpoint: 500,
+        settings: {
+          slidesToShow: 1
+        }
+      }
       ]
     });
     // -----------------------------
@@ -81,7 +99,7 @@
       fixedBgPos: true
 
     });
-    
+
     // gallery-wrapper init
     if (($('.gallery-wrapper').length) !== 0) {
       var Shuffle = window.Shuffle;

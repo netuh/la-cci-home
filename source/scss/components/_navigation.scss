@@ -6,11 +6,11 @@
 	}
 
 	.navbar-brand {
-		padding: 35px 40px 35px 50px;
+		padding: 10px 5px 10px 10px;
 		border-right: 1px solid $border-color;
 
 		@include large-desktop {
-			padding: 20px 30px;
+			padding: 10px 15px;
 		}
 
 		@include tablet {

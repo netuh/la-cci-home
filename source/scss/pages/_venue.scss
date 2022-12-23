@@ -1,0 +1,41 @@
+.venue{
+	padding: 120px 0;
+}
+
+.venue {
+	.content-block{
+		margin-left: 15px;
+		@include tablet {
+			text-align: center;
+		}
+		h2{
+			&:after{
+				content: "";
+				width: 60px;
+				height: 3px;
+				background: $primary-color;
+				display: block;
+				margin-top: 10px;
+				@include tablet {
+					margin: auto;
+				}
+			}
+			margin-bottom: 35px;
+		}
+		.description-one{
+			p{
+				color: $black;
+				font-size: 1.0625rem;
+			}
+			margin-bottom: 20px;
+		}
+		.description-two{
+			ol li{
+                color: $dark-gray;
+				font-size: 0.9375em;
+			}
+			margin-bottom: 30px;
+		}
+		
+	}
+}

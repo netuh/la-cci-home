@@ -241,6 +241,12 @@ button:hover {
   background-position: center center;
 }
 
+.bg-team {
+  background: url(../images/background/bg-team.jpg) fixed no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
 .bg-timer {
   background: url(../images/background/timer-bg.jpg) no-repeat;
   background-size: cover;
@@ -2215,7 +2221,7 @@ select.form-control:not([size]):not([multiple]) {
 
 .banner-carrosel {
   position: relative;
-  background-color:  #2c0635;
+  background-color: #fc318b;
 }
 
 .single-speaker .block {
@@ -3177,5 +3183,206 @@ ul.pagination .active a {
 .contact-form button {
   margin-top: 30px;
   margin-bottom: 30px;
+}
+
+.call4paper {
+  padding: 120px 0;
+}
+.call4paper .content-block {
+  margin-left: 15px;
+}
+.call4paper .content-block h2 {
+  margin-bottom: 35px;
+}
+.call4paper .content-block h2:after {
+  content: "";
+  width: 60px;
+  height: 3px;
+  background: #2192fc;
+  display: block;
+  margin-top: 10px;
+}
+@media (max-width: 767px) {
+  .call4paper .content-block h2:after {
+    margin: auto;
+  }
+}
+.call4paper .content-block .description-one {
+  margin-bottom: 20px;
+}
+.call4paper .content-block .description-one p {
+  color: #222222;
+  font-size: 1.1rem;
+}
+.call4paper .content-block .description-two {
+  margin-bottom: 30px;
+}
+.call4paper .content-block .description-two ol li {
+  color: rgba(77, 74, 74, 0.7921568627);
+  font-size: 0.9375em;
+}
+
+.venue {
+  padding: 120px 0;
+}
+
+.venue .content-block {
+  margin-left: 15px;
+}
+@media (max-width: 767px) {
+  .venue .content-block {
+    text-align: center;
+  }
+}
+.venue .content-block h2 {
+  margin-bottom: 35px;
+}
+.venue .content-block h2:after {
+  content: "";
+  width: 60px;
+  height: 3px;
+  background: #2192fc;
+  display: block;
+  margin-top: 10px;
+}
+@media (max-width: 767px) {
+  .venue .content-block h2:after {
+    margin: auto;
+  }
+}
+.venue .content-block .description-one {
+  margin-bottom: 20px;
+}
+.venue .content-block .description-one p {
+  color: #222222;
+  font-size: 1.0625rem;
+}
+.venue .content-block .description-two {
+  margin-bottom: 30px;
+}
+.venue .content-block .description-two ol li {
+  color: rgba(77, 74, 74, 0.7921568627);
+  font-size: 0.9375em;
+}
+
+.committee {
+  padding-bottom: 70px;
+  border-bottom: 1px solid #e5e5e5;
+}
+.committee .image-block {
+  background: #fff;
+  border: 1px solid #e5e5e5;
+  padding: 6px;
+}
+.committee .image-block img {
+  width: 100%;
+}
+@media (max-width: 767px) {
+  .committee .image-block {
+    margin-bottom: 30px;
+  }
+}
+.committee .member {
+  padding: 7px;
+  margin-bottom: 30px;
+}
+.committee .member .image {
+  margin-bottom: 16px;
+  position: relative;
+  overflow: hidden;
+}
+@media (max-width: 575px) {
+  .committee .member .image img {
+    width: 100% !important;
+  }
+}
+.committee .member .image .primary-overlay {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #2192fc;
+  opacity: 0.85;
+  transition: 0.3s ease;
+}
+.committee .member .image .socials {
+  position: absolute;
+  top: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  transition: 0.4s ease;
+}
+.committee .member .image .socials ul {
+  width: 50%;
+}
+@media (max-width: 1200px) {
+  .committee .member .image .socials ul {
+    width: 100%;
+    text-align: center;
+    padding: 0 20px;
+  }
+}
+.committee .member .image .socials ul li.list-inline-item:not(:last-child) {
+  margin-right: 7px;
+  margin-bottom: 10px;
+}
+@media (max-width: 1200px) {
+  .committee .member .image .socials ul li.list-inline-item:not(:last-child) {
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+}
+@media (max-width: 1200px) {
+  .committee .member .image .socials ul li.list-inline-item:last-child {
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+}
+.committee .member .image .socials ul li a {
+  display: block;
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  border: 1px solid #fff;
+}
+.committee .member .image .socials ul li a i {
+  font-size: 0.9375rem;
+  color: #fff;
+  line-height: 50px;
+}
+.committee .member .image .socials ul li a:hover {
+  background: #fff;
+}
+.committee .member .image .socials ul li a:hover i {
+  color: #222222;
+}
+.committee .member .image:hover .primary-overlay {
+  top: 0;
+}
+.committee .member .image:hover .socials {
+  top: 0;
+}
+.committee .member .bio h5 a {
+  font-size: 22px;
+  color: #fafafa;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+.committee .member .bio h5 a:hover {
+  color: #fc318b;
+}
+.committee .member .bio h6 {
+  font-size: 22px;
+  color: #fafafa;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+.committee .member .bio p {
+  font-size: 0.875rem;
+  margin-bottom: 5px;
 }
 /*# sourceMappingURL=style.css.map */

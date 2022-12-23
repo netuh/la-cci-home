@@ -2,7 +2,7 @@
   "name": "eventre",
   "version": "1.0.0",
   "description": "eventre free event template",
-  "author": "Themefisher",
+  "author": "LA CCI Team",
   "license": "MIT",
   "scripts": {
     "dev": "gulp",

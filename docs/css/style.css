@@ -811,7 +811,7 @@ select.form-control:not([size]):not([multiple]) {
 }
 
 .footer-main {
-  background: #0276e3;
+  background: #2192fc;
   padding: 90px 0;
 }
 @media (max-width: 767px) {
@@ -838,7 +838,7 @@ select.form-control:not([size]):not([multiple]) {
   height: 50px;
   width: 50px;
   text-align: center;
-  background: #fff;
+  background: #2c0635;
 }
 .footer-main .block ul.social-links-footer li a i {
   line-height: 50px;
@@ -2225,7 +2225,7 @@ select.form-control:not([size]):not([multiple]) {
 
 .banner-carrosel {
   position: relative;
-  background-color: #fc318b;
+  background-color: #2c0635;
 }
 
 .single-speaker .block {

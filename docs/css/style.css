@@ -459,6 +459,56 @@ select.form-control:not([size]):not([multiple]) {
   outline: 0;
 }
 
+/* Ow; Slider CSS*/
+.owl-wrapper {
+  positon: relative;
+}
+
+.owl-controls {
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.owl-theme .owl-controls .owl-page span {
+  background: #fff !important;
+}
+
+.owl-img {
+  width: 100%;
+}
+
+.owl-text-overlay {
+  position: absolute;
+  text-align: center;
+  width: 60%;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.4);
+  background: rgba(0, 0, 0, 0.4);
+  padding-bottom: 20px;
+  font-family: "Open Sans", sans-serif;
+  border-radius: 15px 50px 30px 5px;
+}
+
+h2.owl-title {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.owl-theme .owl-controls .owl-page span:active {
+  background: #fff !important;
+}
+
 .btn {
   text-transform: uppercase;
   font-family: "Montserrat", sans-serif;

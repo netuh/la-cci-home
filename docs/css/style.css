@@ -2247,13 +2247,13 @@ select.form-control:not([size]):not([multiple]) {
 }
 .banner-carrosel .owl-slider .item .overlay .title {
   color: #2192fc;
-  font-size: 4.5rem;
+  font-size: 4vw;
   font-family: "Roboto", sans-serif;
   text-align: letf;
 }
 .banner-carrosel .owl-slider .item .overlay .info {
   color: #2c0635;
-  font-size: 2rem;
+  font-size: 2vw;
   line-height: 1.5;
   font-family: "Montserrat", sans-serif;
   text-align: left;

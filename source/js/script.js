@@ -9,21 +9,6 @@
       }, 300);
     });
   }
-  $("#owl-demo").owlCarousel({
- 
-    navigation : true, // Show next and prev button
-    items : 1, 
-    loop:true,
-    autoplay:true,
-    autoplayTimeout : 4000,
-    autoplaySpeed : 3000,
-    autoplayHoverPause : true,
-    itemsDesktop : false,
-    itemsDesktopSmall : false,
-    itemsTablet: false,
-    itemsMobile : false
-
-  });
 
   // -----------------------------
   // To Top Init
@@ -117,3 +102,22 @@
   });
 
 })(jQuery);
+
+// OWL Carosel demo
+
+$(".banner-carrosel .owl-slider").owlCarousel({
+ 
+  navigation : true, // Show next and prev button
+  items : 1,
+  animateIn: "animate__animated animate__backInLeft",
+  loop:true,
+  autoplay:true,
+  autoplayTimeout : 4000,
+  autoplaySpeed : 3000,
+  autoplayHoverPause : true,
+  itemsDesktop : false,
+  itemsDesktopSmall : false,
+  itemsTablet: false,
+  itemsMobile : false
+
+});

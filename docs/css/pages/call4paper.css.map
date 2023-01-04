@@ -1,8 +1,0 @@
-/**
- * WEBSITE: https://themefisher.com
- * TWITTER: https://twitter.com/themefisher
- * FACEBOOK: https://www.facebook.com/themefisher
- * GITHUB: https://github.com/themefisher/
- */
-
-{"version":3,"sources":["pages/call4paper.scss","pages/call4paper.css"],"names":[],"mappings":"AAAA;EACC,gBAAA;ACCD","file":"call4paper.css","sourcesContent":[".call4paper{\n\tpadding: 120px 0;\n}",".call4paper {\n  padding: 120px 0;\n}"]}

@@ -289,6 +289,12 @@ button:hover {
   background-position: center center;
 }
 
+.bg-armacao {
+  background: url(../images/background/bg-armacaoresort.jpg) fixed no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
 .bg-subscribe {
   background: url(../images/background/newsletter-bg.jpg) fixed no-repeat;
   background-size: cover;
@@ -1984,6 +1990,45 @@ select.form-control:not([size]):not([multiple]) {
 .sponsors .sponsor-btn {
   margin-top: 10px;
   margin-bottom: 30px;
+}
+
+.map-new {
+  position: relative;
+  height: 480px;
+}
+.map-new .address-block {
+  position: absolute;
+  padding: 45px 50px 50px 50px;
+  top: 80px;
+  left: 10%;
+  background: #2192fc;
+}
+@media (max-width: 575px) {
+  .map-new .address-block {
+    display: none;
+  }
+}
+.map-new .address-block h4,
+.map-new .address-block li {
+  color: #fff;
+  margin-bottom: 20px;
+}
+.map-new .address-block h4 {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+.map-new .address-block ul.address-list li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+.map-new .address-block ul.address-list li i {
+  font-size: 1.125rem;
+}
+.map-new .address-block ul.address-list li span {
+  margin-left: 15px;
+}
+.map-new .address-block a {
+  margin-top: 35px;
 }
 
 .map {

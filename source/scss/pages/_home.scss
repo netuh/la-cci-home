@@ -1242,6 +1242,57 @@
 	}
 }
 
+// New map
+.map-new {
+	position: relative;
+
+	height: 480px;
+
+	.address-block {
+		position: absolute;
+		padding: 45px 50px 50px 50px;
+		top: 80px;
+		left: 10%;
+
+		@include mobile {
+			display: none;
+		}
+
+		background: $primary-color;
+
+		h4,
+		li {
+			color: $light;
+			margin-bottom: 20px;
+		}
+
+		h4 {
+			font-size: 1.5rem;
+			font-weight: 400;
+		}
+
+		ul.address-list {
+			li {
+				list-style: none;
+
+				i {
+					font-size: 1.125rem;
+				}
+
+				span {
+					margin-left: 15px;
+				}
+
+				margin-bottom: 10px;
+			}
+		}
+
+		a {
+			margin-top: 35px;
+		}
+	}
+}
+
 // Google map
 .map {
 	position: relative;
@@ -1585,7 +1636,14 @@
 					}
 
 					//text-shadow: 3.5px 6.062px 0px rgba(255, 255, 255, 0.804);
-					text-shadow: 2px 0 #fff, -2px 0 #fff, 0 2px #fff, 0 -2px #fff, 1px 1px #fff, -1px -1px #fff, 1px -1px #fff, -1px 1px #fff;
+					text-shadow: 2px 0 #fff,
+					-2px 0 #fff,
+					0 2px #fff,
+					0 -2px #fff,
+					1px 1px #fff,
+					-1px -1px #fff,
+					1px -1px #fff,
+					-1px 1px #fff;
 				}
 
 				h2 {

@@ -2240,10 +2240,50 @@ select.form-control:not([size]):not([multiple]) {
   position: absolute;
   top: 0;
   left: 0;
-  background-color: rgba(219, 203, 203, 0.701);
   display: flex;
   justify-content: left;
   align-items: center;
+}
+.banner-carrosel .owl-slider .item .overlay h1 {
+  text-transform: uppercase;
+  font-size: 5.5rem;
+  color: #2192fc;
+  font-weight: 500;
+  margin-bottom: 5px;
+  text-shadow: 3.5px 6.062px 0px rgba(0, 0, 0, 0.1);
+}
+@media (max-width: 767px) {
+  .banner-carrosel .owl-slider .item .overlay h1 {
+    font-size: 4rem;
+  }
+}
+@media (max-width: 400px) {
+  .banner-carrosel .owl-slider .item .overlay h1 {
+    font-size: 3rem;
+  }
+}
+.banner-carrosel .owl-slider .item .overlay h2 {
+  text-transform: uppercase;
+  font-size: 3.5rem;
+  color: #fff;
+  font-weight: 400;
+  text-shadow: 3.5px 6.062px 0px rgba(0, 0, 0, 0.1);
+  font-style: italic;
+}
+@media (max-width: 767px) {
+  .banner-carrosel .owl-slider .item .overlay h2 {
+    font-size: 2.1rem;
+  }
+}
+@media (max-width: 400px) {
+  .banner-carrosel .owl-slider .item .overlay h2 {
+    font-size: 1.3rem;
+  }
+}
+.banner-carrosel .owl-slider .item .overlay h6 {
+  color: #fff;
+  font-weight: 400;
+  margin-bottom: 50px;
 }
 .banner-carrosel .owl-slider .item .overlay .title {
   color: #2192fc;

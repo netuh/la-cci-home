@@ -577,6 +577,7 @@ select.form-control:not([size]):not([multiple]) {
 .main-nav .navbar-toggler {
   font-size: 1.5rem;
   margin-right: 15px;
+  color: #ffffff;
 }
 .main-nav .navbar-nav .nav-item {
   position: relative;

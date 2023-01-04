@@ -2247,10 +2247,10 @@ select.form-control:not([size]):not([multiple]) {
 .banner-carrosel .owl-slider .item .overlay h1 {
   text-transform: uppercase;
   font-size: 5.5rem;
-  color: #2192fc;
+  color: #2c0635;
   font-weight: 500;
   margin-bottom: 5px;
-  text-shadow: 3.5px 6.062px 0px rgba(0, 0, 0, 0.1);
+  text-shadow: 2px 0 #fff, -2px 0 #fff, 0 2px #fff, 0 -2px #fff, 1px 1px #fff, -1px -1px #fff, 1px -1px #fff, -1px 1px #fff;
 }
 @media (max-width: 767px) {
   .banner-carrosel .owl-slider .item .overlay h1 {
@@ -2267,7 +2267,7 @@ select.form-control:not([size]):not([multiple]) {
   font-size: 3.5rem;
   color: #fff;
   font-weight: 400;
-  text-shadow: 3.5px 6.062px 0px rgba(0, 0, 0, 0.1);
+  text-shadow: 2px 0 #2c0635, -2px 0 #2c0635, 0 2px #2c0635, 0 -2px #2c0635, 1px 1px #2c0635, -1px -1px #2c0635, 1px -1px #2c0635, -1px 1px #2c0635;
   font-style: italic;
 }
 @media (max-width: 767px) {

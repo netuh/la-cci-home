@@ -1572,7 +1572,7 @@
 				h1 {
 					text-transform: uppercase;
 					font-size: 5.5rem;
-					color: $primary-color;
+					color: $body-color;
 					font-weight: 500;
 					margin-bottom: 5px;
 
@@ -1584,7 +1584,8 @@
 						font-size: 3rem;
 					}
 
-					text-shadow: 3.5px 6.062px 0px rgba(0, 0, 0, 0.1);
+					//text-shadow: 3.5px 6.062px 0px rgba(255, 255, 255, 0.804);
+					text-shadow: 2px 0 #fff, -2px 0 #fff, 0 2px #fff, 0 -2px #fff, 1px 1px #fff, -1px -1px #fff, 1px -1px #fff, -1px 1px #fff;
 				}
 
 				h2 {
@@ -1592,7 +1593,7 @@
 					font-size: 3.5rem;
 					color: $light;
 					font-weight: 400;
-					text-shadow: 3.5px 6.062px 0px rgba(0, 0, 0, 0.1);
+					text-shadow: 2px 0 $body-color, -2px 0 $body-color, 0 2px $body-color, 0 -2px $body-color, 1px 1px $body-color, -1px -1px $body-color, 1px -1px $body-color, -1px 1px $body-color;
 					font-style: italic;
 
 					@include tablet {

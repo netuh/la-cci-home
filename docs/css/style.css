@@ -2299,12 +2299,12 @@ select.form-control:not([size]):not([multiple]) {
 }
 @media (max-width: 767px) {
   .banner-carrosel .owl-slider .item .overlay h1 {
-    font-size: 4rem;
+    font-size: 2.5rem;
   }
 }
 @media (max-width: 400px) {
   .banner-carrosel .owl-slider .item .overlay h1 {
-    font-size: 3rem;
+    font-size: 1.5rem;
   }
 }
 .banner-carrosel .owl-slider .item .overlay h2 {
@@ -2317,12 +2317,12 @@ select.form-control:not([size]):not([multiple]) {
 }
 @media (max-width: 767px) {
   .banner-carrosel .owl-slider .item .overlay h2 {
-    font-size: 2.1rem;
+    font-size: 1.2rem;
   }
 }
 @media (max-width: 400px) {
   .banner-carrosel .owl-slider .item .overlay h2 {
-    font-size: 1.3rem;
+    font-size: 0.8rem;
   }
 }
 .banner-carrosel .owl-slider .item .overlay h6 {

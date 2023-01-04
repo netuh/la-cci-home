@@ -3673,4 +3673,19 @@ ul.pagination .active a {
     font-size: 80%;
   }
 }
+
+.registration .description-one {
+  margin-bottom: 20px;
+}
+.registration .description-one p {
+  color: #222222;
+  font-size: 1.0625rem;
+  text-align: justify;
+  line-height: 1.5;
+  margin-bottom: 1em;
+}
+.registration button {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
 /*# sourceMappingURL=style.css.map */

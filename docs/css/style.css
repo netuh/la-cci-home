@@ -3300,7 +3300,6 @@ ul.pagination .active a {
 .venue {
   padding: 120px 0;
 }
-
 .venue .content-block {
   margin-left: 15px;
 }
@@ -3335,10 +3334,68 @@ ul.pagination .active a {
   line-height: 1.5;
   margin-bottom: 1em;
 }
-.venue .content-block .description-two {
+.venue .content-block .description-one .float-img {
+  float: left;
+  margin-bottom: 1em;
+  margin-top: 1em;
+  margin-left: 1em;
+  margin-right: 1em;
+  width: 30%;
+  height: auto;
+}
+.venue .content-block .description-one .full-img {
+  float: center;
+  margin-bottom: 1em;
+  margin-top: 1em;
+  margin-left: 1em;
+  margin-right: 1em;
+  width: 95%;
+  height: auto;
+}
+@media (max-width: 767px) {
+  .venue .content-block .description-one .float-img {
+    float: center;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+    width: 90%;
+    height: auto;
+  }
+}
+.venue .content-block .text-img {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  gap: 1rem;
+  align-items: center;
+  margin: 0 auto;
+}
+.venue .content-block .text-img img {
+  width: 100%;
+  height: auto;
+}
+.venue .content-block .text-img p {
+  color: #222222;
+  font-size: 1.0625rem;
+  text-align: justify;
+  line-height: 1.5;
+  margin-bottom: 1em;
+  margin-left: 1em;
+}
+@media (max-width: 767px) {
+  .venue .content-block .text-img {
+    display: block;
+    font-size: 80%;
+  }
+  .venue .content-block .text-img p {
+    position: relative;
+    padding: 1rem;
+  }
+}
+.venue .description-two {
   margin-bottom: 30px;
 }
-.venue .content-block .description-two ol li {
+.venue .description-two ol li {
   color: rgba(77, 74, 74, 0.7921568627);
   font-size: 0.9375em;
 }

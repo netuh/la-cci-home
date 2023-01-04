@@ -1,44 +1,113 @@
-.venue{
-	padding: 120px 0;
-}
-
 .venue {
-	.content-block{
+	padding: 120px 0;
+
+	.content-block {
 		margin-left: 15px;
+
 		@include tablet {
 			text-align: center;
 		}
-		h2{
-			&:after{
+
+		h2 {
+			&:after {
 				content: "";
 				width: 60px;
 				height: 3px;
 				background: $primary-color;
 				display: block;
 				margin-top: 10px;
+
 				@include tablet {
 					margin: auto;
 				}
 			}
+
 			margin-bottom: 35px;
 		}
-		.description-one{
-			p{
+
+		.description-one {
+			p {
 				color: $black;
 				font-size: 1.0625rem;
 				text-align: justify;
 				line-height: 1.5;
 				margin-bottom: 1em;
 			}
+
+			.float-img {
+				float: left;
+				margin-bottom: 1em;
+				margin-top: 1em;
+				margin-left: 1em;
+				margin-right: 1em;
+				width: 30%;
+				height: auto;
+			}
+
+			.full-img {
+				float: center;
+				margin-bottom: 1em;
+				margin-top: 1em;
+				margin-left: 1em;
+				margin-right: 1em;
+				width: 95%;
+				height: auto;
+			}
+
+			@include tablet {
+				.float-img {
+					float: center;
+					margin-bottom: 1em;
+					margin-top: 1em;
+					margin-left: 1em;
+					margin-right: 1em;
+					width: 90%;
+					height: auto;
+				}
+			}
+
 			margin-bottom: 20px;
 		}
-		.description-two{
-			ol li{
-                color: $dark-gray;
-				font-size: 0.9375em;
+
+		.text-img {
+			display: grid;
+			//padding: 2rem;
+			grid-template-columns: 300px 1fr;
+			gap: 1rem;
+			align-items: center;
+			margin: 0 auto;
+
+			img {
+				width: 100%;
+				height: auto;
 			}
-			margin-bottom: 30px;
+			p {
+				color: $black;
+				font-size: 1.0625rem;
+				text-align: justify;
+				line-height: 1.5;
+				margin-bottom: 1em;
+				margin-left: 1em;
+			}
+
+			@include tablet {
+				display: block;
+				font-size: 80%;
+				p {
+					position: relative;
+					padding: 1rem;
+				}
+			}
 		}
-		
 	}
+
+	.description-two {
+		ol li {
+			color: $dark-gray;
+			font-size: 0.9375em;
+		}
+
+		margin-bottom: 30px;
+	}
+
 }

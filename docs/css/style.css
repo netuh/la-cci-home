@@ -2004,9 +2004,9 @@ select.form-control:not([size]):not([multiple]) {
   left: 10%;
   background: #2192fc;
 }
-@media (max-width: 575px) {
+@media (max-width: 767px) {
   .map-new .address-block {
-    display: none;
+    padding: 35px 40px 40px 40px;
   }
 }
 .map-new .address-block h4,
@@ -2018,12 +2018,22 @@ select.form-control:not([size]):not([multiple]) {
   font-size: 1.5rem;
   font-weight: 400;
 }
+@media (max-width: 767px) {
+  .map-new .address-block h4 {
+    font-size: 1rem;
+  }
+}
 .map-new .address-block ul.address-list li {
   list-style: none;
   margin-bottom: 10px;
 }
 .map-new .address-block ul.address-list li i {
   font-size: 1.125rem;
+}
+@media (max-width: 767px) {
+  .map-new .address-block ul.address-list li i {
+    font-size: 0.7rem;
+  }
 }
 .map-new .address-block ul.address-list li span {
   margin-left: 15px;

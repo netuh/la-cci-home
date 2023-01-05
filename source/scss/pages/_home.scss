@@ -1254,8 +1254,8 @@
 		top: 80px;
 		left: 10%;
 
-		@include mobile {
-			display: none;
+		@include tablet {
+			padding: 35px 40px 40px 40px;
 		}
 
 		background: $primary-color;
@@ -1269,6 +1269,9 @@
 		h4 {
 			font-size: 1.5rem;
 			font-weight: 400;
+			@include tablet{
+				font-size: 1rem;
+			}
 		}
 
 		ul.address-list {
@@ -1277,6 +1280,9 @@
 
 				i {
 					font-size: 1.125rem;
+					@include tablet{
+						font-size: 0.7rem;
+					}
 				}
 
 				span {

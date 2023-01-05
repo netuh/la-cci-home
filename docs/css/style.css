@@ -2308,14 +2308,29 @@ select.form-control:not([size]):not([multiple]) {
   margin-bottom: 5px;
   text-shadow: 2px 0 #fff, -2px 0 #fff, 0 2px #fff, 0 -2px #fff, 1px 1px #fff, -1px -1px #fff, 1px -1px #fff, -1px 1px #fff;
 }
+@media (max-width: 1200px) {
+  .banner-carrosel .owl-slider .item .overlay-txt h1 {
+    font-size: 4rem;
+  }
+}
+@media (max-width: 1024px) {
+  .banner-carrosel .owl-slider .item .overlay-txt h1 {
+    font-size: 3.5rem;
+  }
+}
 @media (max-width: 767px) {
   .banner-carrosel .owl-slider .item .overlay-txt h1 {
     font-size: 2.5rem;
   }
 }
-@media (max-width: 400px) {
+@media (max-width: 575px) {
   .banner-carrosel .owl-slider .item .overlay-txt h1 {
     font-size: 1.5rem;
+  }
+}
+@media (max-width: 400px) {
+  .banner-carrosel .owl-slider .item .overlay-txt h1 {
+    font-size: 1.2rem;
   }
 }
 .banner-carrosel .owl-slider .item .overlay-txt h2 {
@@ -2326,9 +2341,24 @@ select.form-control:not([size]):not([multiple]) {
   text-shadow: 2px 0 #2c0635, -2px 0 #2c0635, 0 2px #2c0635, 0 -2px #2c0635, 1px 1px #2c0635, -1px -1px #2c0635, 1px -1px #2c0635, -1px 1px #2c0635;
   font-style: italic;
 }
+@media (max-width: 1200px) {
+  .banner-carrosel .owl-slider .item .overlay-txt h2 {
+    font-size: 3rem;
+  }
+}
+@media (max-width: 1024px) {
+  .banner-carrosel .owl-slider .item .overlay-txt h2 {
+    font-size: 2rem;
+  }
+}
 @media (max-width: 767px) {
   .banner-carrosel .owl-slider .item .overlay-txt h2 {
     font-size: 1.2rem;
+  }
+}
+@media (max-width: 575px) {
+  .banner-carrosel .owl-slider .item .overlay-txt h2 {
+    font-size: 0.8rem;
   }
 }
 @media (max-width: 400px) {
@@ -2340,19 +2370,6 @@ select.form-control:not([size]):not([multiple]) {
   color: #fff;
   font-weight: 400;
   margin-bottom: 50px;
-}
-.banner-carrosel .owl-slider .item .overlay-txt .title {
-  color: #2192fc;
-  font-size: 4vw;
-  font-family: "Roboto", sans-serif;
-  text-align: letf;
-}
-.banner-carrosel .owl-slider .item .overlay-txt .info {
-  color: #2c0635;
-  font-size: 2vw;
-  line-height: 1.5;
-  font-family: "Montserrat", sans-serif;
-  text-align: left;
 }
 
 .single-speaker .block {

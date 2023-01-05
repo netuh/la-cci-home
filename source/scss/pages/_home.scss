@@ -1633,12 +1633,24 @@
 					font-weight: 500;
 					margin-bottom: 5px;
 
+					@include large-desktop {
+						font-size: 4rem;
+					}
+
+					@include desktop {
+						font-size: 3.5rem;
+					}
+
 					@include tablet {
 						font-size: 2.5rem;
 					}
 
-					@include mobile-xs {
+					@include mobile {
 						font-size: 1.5rem;
+					}
+
+					@include mobile-xs {
+						font-size: 1.2rem;
 					}
 
 					//text-shadow: 3.5px 6.062px 0px rgba(255, 255, 255, 0.804);
@@ -1660,8 +1672,20 @@
 					text-shadow: 2px 0 $body-color, -2px 0 $body-color, 0 2px $body-color, 0 -2px $body-color, 1px 1px $body-color, -1px -1px $body-color, 1px -1px $body-color, -1px 1px $body-color;
 					font-style: italic;
 
+					@include large-desktop {
+						font-size: 3rem;
+					}
+
+					@include desktop {
+						font-size: 2rem;
+					}
+
 					@include tablet {
 						font-size: 1.2rem;
+					}
+
+					@include mobile {
+						font-size: 0.8rem;
 					}
 
 					@include mobile-xs {
@@ -1673,21 +1697,6 @@
 					color: $light;
 					font-weight: 400;
 					margin-bottom: 50px;
-				}
-
-				.title {
-					color: $primary-color;
-					font-size: 4vw;
-					font-family: $primary-font;
-					text-align: letf;
-				}
-
-				.info {
-					color: $body-color;
-					font-size: 2vw;
-					line-height: 1.5;
-					font-family: $secondary-font;
-					text-align: left;
 				}
 			}
 		}

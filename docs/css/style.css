@@ -2279,7 +2279,7 @@ select.form-control:not([size]):not([multiple]) {
   width: 100%;
   height: auto;
 }
-.banner-carrosel .owl-slider .item .overlay {
+.banner-carrosel .owl-slider .item .overlay-txt {
   width: 100%;
   height: 100%;
   padding: 60px;
@@ -2290,7 +2290,7 @@ select.form-control:not([size]):not([multiple]) {
   justify-content: left;
   align-items: center;
 }
-.banner-carrosel .owl-slider .item .overlay h1 {
+.banner-carrosel .owl-slider .item .overlay-txt h1 {
   text-transform: uppercase;
   font-size: 5.5rem;
   color: #2c0635;
@@ -2299,16 +2299,16 @@ select.form-control:not([size]):not([multiple]) {
   text-shadow: 2px 0 #fff, -2px 0 #fff, 0 2px #fff, 0 -2px #fff, 1px 1px #fff, -1px -1px #fff, 1px -1px #fff, -1px 1px #fff;
 }
 @media (max-width: 767px) {
-  .banner-carrosel .owl-slider .item .overlay h1 {
+  .banner-carrosel .owl-slider .item .overlay-txt h1 {
     font-size: 2.5rem;
   }
 }
 @media (max-width: 400px) {
-  .banner-carrosel .owl-slider .item .overlay h1 {
+  .banner-carrosel .owl-slider .item .overlay-txt h1 {
     font-size: 1.5rem;
   }
 }
-.banner-carrosel .owl-slider .item .overlay h2 {
+.banner-carrosel .owl-slider .item .overlay-txt h2 {
   text-transform: uppercase;
   font-size: 3.5rem;
   color: #fff;
@@ -2317,27 +2317,27 @@ select.form-control:not([size]):not([multiple]) {
   font-style: italic;
 }
 @media (max-width: 767px) {
-  .banner-carrosel .owl-slider .item .overlay h2 {
+  .banner-carrosel .owl-slider .item .overlay-txt h2 {
     font-size: 1.2rem;
   }
 }
 @media (max-width: 400px) {
-  .banner-carrosel .owl-slider .item .overlay h2 {
+  .banner-carrosel .owl-slider .item .overlay-txt h2 {
     font-size: 0.8rem;
   }
 }
-.banner-carrosel .owl-slider .item .overlay h6 {
+.banner-carrosel .owl-slider .item .overlay-txt h6 {
   color: #fff;
   font-weight: 400;
   margin-bottom: 50px;
 }
-.banner-carrosel .owl-slider .item .overlay .title {
+.banner-carrosel .owl-slider .item .overlay-txt .title {
   color: #2192fc;
   font-size: 4vw;
   font-family: "Roboto", sans-serif;
   text-align: letf;
 }
-.banner-carrosel .owl-slider .item .overlay .info {
+.banner-carrosel .owl-slider .item .overlay-txt .info {
   color: #2c0635;
   font-size: 2vw;
   line-height: 1.5;

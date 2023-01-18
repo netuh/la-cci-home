@@ -48,6 +48,8 @@
 
   <!-- FAVICON -->
   <link href="images/favicon.png" rel="shortcut icon">
+  
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
 
 </head>
 
@@ -56,6 +58,12 @@
 
 <!--========================================
 =            Navigation Section            =
+ <div class="row">
+      <div id="consent-popup" class="hidden">
+        <p>By using this site you agree to our <a href="#">Terms and Conditions</a>.
+            Please <a id="accept" href="#">Accept</a> these before using the site.
+        </p>
+    </div>
 =========================================-->
 <nav class="navbar main-nav border-less fixed-top navbar-expand-lg p-0">
   <div class="container-fluid p-0">
@@ -204,7 +212,7 @@
 				<!-- Speaker 1 -->
 				<div class="member">
 					<div class="image">
-						<img src="images/committee/Carlos.png" alt="Carlos" class="img-fluid">
+						<img src="images/committee/Coello-Coello.png" alt="Carlos" class="img-fluid">
 						<div class="primary-overlay"></div>
 						<div class="socials">
 							<ul class="list-inline">
@@ -259,7 +267,7 @@
 				<!-- Speaker 1 -->
 				<div class="member">
 					<div class="image">
-						<img src="images/committee/Frederico Gadelha.png" alt="Carlos" class="img-fluid">
+						<img src="images/committee/Frederico-Gadelha.png" alt="Carlos" class="img-fluid">
 						<div class="primary-overlay"></div>
 						<div class="socials">
 							<ul class="list-inline">
@@ -280,7 +288,7 @@
 				<!-- Speaker 2 -->
 				<div class="member">
 					<div class="image">
-						<img src="images/committee/Eduardo Aguiar.png" alt="speaker" class="img-fluid">
+						<img src="images/committee/Eduardo-Aguiar.png" alt="speaker" class="img-fluid">
 						<div class="primary-overlay"></div>
 						<div class="socials">
 							<ul class="list-inline">
@@ -335,7 +343,7 @@
 				<!-- Speaker 2 -->
 				<div class="member">
 					<div class="image">
-						<img src="images/committee/Fernando Neto.png" alt="speaker" class="img-fluid">
+						<img src="images/committee/Fernando-Neto.png" alt="speaker" class="img-fluid">
 						<div class="primary-overlay"></div>
 						<div class="socials">
 							<ul class="list-inline">
@@ -437,8 +445,11 @@
   <!-- Google Mapl -->
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU"></script>
   <script src="plugins/google-map/gmap.js"></script>
+  <!-- https://www.osano.com/cookieconsent-->
+  <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
   <!-- Custom Script -->
   <script src="js/script.js"></script>
+
 </body>
 
 </html>

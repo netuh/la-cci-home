@@ -966,21 +966,26 @@ select.form-control:not([size]):not([multiple]) {
     font-size: 1.5rem;
   }
 }
-.dates ol li {
+.dates ol {
+  padding-left: 1.8rem;
   font-size: 1.2rem;
-  list-style-type: none;
-  color: rgba(77, 74, 74, 0.7921568627);
-  counter-increment: item;
 }
 @media (max-width: 767px) {
-  .dates ol li {
+  .dates ol {
+    padding-left: 0;
     font-size: 1rem;
   }
 }
 @media (max-width: 575px) {
-  .dates ol li {
-    font-size: 0.8rem;
+  .dates ol {
+    padding-left: 0;
+    font-size: 0.5rem;
   }
+}
+.dates ol li {
+  list-style-type: none;
+  color: rgba(77, 74, 74, 0.7921568627);
+  counter-increment: item;
 }
 .dates ol li:before {
   content: counter(item);
@@ -989,7 +994,7 @@ select.form-control:not([size]):not([multiple]) {
   background-color: rgba(77, 74, 74, 0.7921568627);
   color: #7eb4e2;
   font-weight: bold;
-  padding: 3px 8px;
+  padding: 1px 8px;
   border-radius: 3px;
 }
 

@@ -2,6 +2,7 @@
 
     h2 {
         font-size: 3.2rem;
+
         @include tablet {
             font-size: 2rem;
         }
@@ -12,30 +13,34 @@
     }
 
 
-    ol li {
+    ol {
+        padding-left: 1.8rem;
         font-size: 1.2rem;
 
         @include tablet {
+            padding-left: 0;
             font-size: 1rem;
         }
 
         @include mobile {
-            font-size: 0.8rem;
+            padding-left: 0;            
+            font-size: .5rem;
+        }
+        li {
+            list-style-type: none;
+            color: $dark-gray;
+            counter-increment: item;
         }
 
-        list-style-type: none;
-        color: $dark-gray;
-        counter-increment: item;
-    }
-
-    ol li:before {
-        content: counter(item);
-        margin-right: 5px;
-        font-size: 80%;
-        background-color: $dark-gray;
-        color: #7eb4e2;
-        font-weight: bold;
-        padding: 3px 8px;
-        border-radius: 3px;
+        li:before {
+            content: counter(item);
+            margin-right: 5px;
+            font-size: 80%;
+            background-color: $dark-gray;
+            color: #7eb4e2;
+            font-weight: bold;
+            padding: 1px 8px;
+            border-radius: 3px;
+        }
     }
 }

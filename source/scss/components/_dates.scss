@@ -1,7 +1,30 @@
 .dates {
 
+    h2 {
+        font-size: 3.2rem;
+        @include tablet {
+            font-size: 2rem;
+        }
+
+        @include mobile {
+            font-size: 1.5rem;
+        }
+    }
+
+
     ol li {
+        font-size: 1.2rem;
+
+        @include tablet {
+            font-size: 1rem;
+        }
+
+        @include mobile {
+            font-size: 0.8rem;
+        }
+
         list-style-type: none;
+        color: $dark-gray;
         counter-increment: item;
     }
 
@@ -9,7 +32,7 @@
         content: counter(item);
         margin-right: 5px;
         font-size: 80%;
-        background-color: #ffffff;
+        background-color: $dark-gray;
         color: #7eb4e2;
         font-weight: bold;
         padding: 3px 8px;

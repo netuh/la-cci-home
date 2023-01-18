@@ -953,15 +953,40 @@ select.form-control:not([size]):not([multiple]) {
   }
 }
 
+.dates h2 {
+  font-size: 3.2rem;
+}
+@media (max-width: 767px) {
+  .dates h2 {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 575px) {
+  .dates h2 {
+    font-size: 1.5rem;
+  }
+}
 .dates ol li {
+  font-size: 1.2rem;
   list-style-type: none;
+  color: rgba(77, 74, 74, 0.7921568627);
   counter-increment: item;
+}
+@media (max-width: 767px) {
+  .dates ol li {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 575px) {
+  .dates ol li {
+    font-size: 0.8rem;
+  }
 }
 .dates ol li:before {
   content: counter(item);
   margin-right: 5px;
   font-size: 80%;
-  background-color: #ffffff;
+  background-color: rgba(77, 74, 74, 0.7921568627);
   color: #7eb4e2;
   font-weight: bold;
   padding: 3px 8px;

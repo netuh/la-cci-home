@@ -209,6 +209,10 @@ button:hover {
   background: #fafafa;
 }
 
+.bg-lightblue {
+  background: #7eb4e2;
+}
+
 .bg-darkgray {
   background: rgba(203, 203, 203, 0.2705882353);
 }
@@ -947,6 +951,21 @@ select.form-control:not([size]):not([multiple]) {
   .cta-subscribe .subscribe-button {
     margin-bottom: 30px;
   }
+}
+
+.dates ol li {
+  list-style-type: none;
+  counter-increment: item;
+}
+.dates ol li:before {
+  content: counter(item);
+  margin-right: 5px;
+  font-size: 80%;
+  background-color: #ffffff;
+  color: #7eb4e2;
+  font-weight: bold;
+  padding: 3px 8px;
+  border-radius: 3px;
 }
 
 .banner {

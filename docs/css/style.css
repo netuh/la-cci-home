@@ -3426,11 +3426,21 @@ ul.pagination .active a {
   }
 }
 .call4paper .content-block .description-one {
+  color: #222222;
+  font-size: 1.0625rem;
+  text-align: justify;
+  line-height: 1.5;
+  margin-bottom: 1em;
   margin-bottom: 20px;
 }
-.call4paper .content-block .description-one p {
-  color: #222222;
+.call4paper .content-block .description-one a {
   font-size: 1.1rem;
+  color: #2192fc;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+.call4paper .content-block .description-one a:hover {
+  color: #3831fc;
 }
 .call4paper .content-block .description-two {
   margin-bottom: 30px;

@@ -17,11 +17,21 @@
 			margin-bottom: 35px;
 		}
 		.description-one{
-			p{
-				color: $black;
+			color: $black;
+				font-size: 1.0625rem;
+				text-align: justify;
+				line-height: 1.5;
+				margin-bottom: 1em;
+				margin-bottom: 20px;
+			a{
 				font-size: 1.1rem;
+				color: $primary-color;
+				font-weight: 400;
+				margin-bottom: 0;
+				&:hover{
+					color: $secondary-color;
+				}
 			}
-			margin-bottom: 20px;
 		}
 		.description-two{
 			ol li{

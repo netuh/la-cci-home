@@ -479,14 +479,6 @@ select.form-control:not([size]):not([multiple]) {
   transition: all 0.3s ease;
 }
 
-.btn2 {
-  font-family: "Montserrat", sans-serif;
-  transition: all 0.3s ease;
-  color: #2192fc;
-  outline: none;
-  font-weight: bold;
-}
-
 .btn-main {
   padding: 25px 45px;
   border-radius: 3px;

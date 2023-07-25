@@ -3553,6 +3553,17 @@ ul.pagination .active a {
   color: rgba(77, 74, 74, 0.7921568627);
   font-size: 0.9375em;
 }
+.venue .google-map {
+  padding-bottom: 50%;
+  position: relative;
+}
+.venue .google-map iframe {
+  height: 80%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  position: absolute;
+}
 
 .committee {
   padding-bottom: 70px;

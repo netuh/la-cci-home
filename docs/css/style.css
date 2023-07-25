@@ -3558,7 +3558,7 @@ ul.pagination .active a {
   position: relative;
 }
 .venue .google-map iframe {
-  height: 80%;
+  height: 100%;
   width: 100%;
   left: 0;
   top: 0;

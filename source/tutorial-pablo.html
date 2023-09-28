@@ -1,0 +1,48 @@
+@@include('header.htm')
+
+@@include('blocks/navigation.htm')
+
+@@include('blocks/page-title.htm',{
+	"title"		: "Tutorial: Pablo Barros",
+	"page"		: "Tutorials"
+})
+
+<section class="section single-speaker">
+	<div class="container">
+		<div class="block">
+			<div class="row">
+				<div class="col-lg-5 col-md-6 align-self-md-center">
+					<div class="image-block">
+						<img src="images/keynotes/paulo.png" class="img-fluid" alt="speaker">
+					</div>
+				</div>
+				<div class="col-lg-7 col-md-6 align-self-center">
+					<div class="content-block">
+						<div class="name">
+							<h3>Chef's Hat Cup: Revenge of the Agent!</h3>
+						</div>
+						<div class="profession">
+							<p>Dr. Pablo Barros</p>
+						</div>
+						<div class="details">
+							<p>
+								Most of the current reinforcement learning solutions for competitive learning, although having real-world-inspired scenarios, focus on a direct space-action-reward mapping between the agent's actions and the environment's state. That translates to agents that can adapt to dynamic scenarios, but, when applied to competitive cases against humans, fail to assess and deal with the impact of their fast-adapting opponents. In most cases, when these agents choose an action, they do not take into consideration how their opponents can affect the state of the scenario. In competitive scenarios, the agents have to learn decisions that a) maximize their goal, and b) minimize their adversaries' goal. Besides dealing with complex scenarios, such solutions would have to deal with the dynamics between the Agents themselves. In this regard, social reinforcement learning is still behind the mainstream applications and demonstrations of the last few years.
+							</p>
+							<p>
+								We introduce here the Chef's Hat Cup: Revenge of the Agent! That is our second version of the competition that aims at the development of the most challenging artificial players!
+							</p>
+							<p>
+								This year`s competition is separated into two tracks: a virtual agent`s competitive scenario and, for the first time, a human track. In the first track, the participants will use the already available simulation environment to develop the most effective agents to play the Chef's Hat card game and be the winner. In the second track, the humans themselves will play the games against each other, generating a valuable dataset containing both in-game descriptors (moves, strategies), but also social cue information such as facial features and personality traits of the participants. To end the competition in high style, the winners of each track, virtual agents and humans, will play an exhibition match against each other, which will set the performance of the agents for the next years to come.
+							</p>
+						</div>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+@@include('blocks/footer.htm')
+
+@@include('footer.htm')

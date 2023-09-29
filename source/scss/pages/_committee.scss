@@ -1,8 +1,133 @@
-.committee{
+.committee {
 	padding-bottom: 70px;
 	border-bottom: 1px solid $border-color;
+	/* Table Styles */
 
-	
+	.table-wrapper {
+		margin: 10px 70px 70px;
+		box-shadow: 0px 35px 50px rgba(0, 0, 0, 0.2);
+	}
+
+	.fl-table {
+		border-radius: 5px;
+		font-size: 16px;
+		font-weight: normal;
+		border: none;
+		border-collapse: collapse;
+		width: 100%;
+		max-width: 100%;
+		white-space: nowrap;
+		background-color: white;
+	}
+
+	.fl-table td,
+	.fl-table th {
+		// text-align: center;
+		padding: 8px;
+	}
+
+	.fl-table td {
+		border-right: 1px solid #f8f8f8;
+		font-size: 14px;
+	}
+
+	.fl-table thead th {
+		color: #ffffff;
+		background: $primary-color;
+	}
+
+
+	.fl-table thead th:nth-child(odd) {
+		color: #ffffff;
+		background: $primary-color;
+	}
+
+	.fl-table tr:nth-child(even) {
+		background: #F8F8F8;
+	}
+
+	/* Responsive */
+
+	@media (max-width: 767px) {
+		.fl-table {
+			display: block;
+			width: 100%;
+		}
+
+		.table-wrapper:before {
+			content: "Scroll horizontally >";
+			display: block;
+			text-align: right;
+			font-size: 11px;
+			color: white;
+			padding: 0 0 10px;
+		}
+
+		.fl-table thead,
+		.fl-table tbody,
+		.fl-table thead th {
+			display: block;
+		}
+
+		.fl-table thead th:last-child {
+			border-bottom: none;
+		}
+
+		.fl-table thead {
+			float: left;
+		}
+
+		.fl-table tbody {
+			width: auto;
+			position: relative;
+			overflow-x: auto;
+		}
+
+		.fl-table td,
+		.fl-table th {
+			padding: 20px .625em .625em .625em;
+			height: 60px;
+			vertical-align: middle;
+			box-sizing: border-box;
+			overflow-x: hidden;
+			overflow-y: auto;
+			width: 120px;
+			font-size: 13px;
+			text-overflow: ellipsis;
+		}
+
+		.fl-table thead th {
+			text-align: left;
+			border-bottom: 1px solid #f7f7f9;
+		}
+
+		.fl-table tbody tr {
+			display: table-cell;
+		}
+
+		.fl-table tbody tr:nth-child(odd) {
+			background: none;
+		}
+
+		.fl-table tr:nth-child(even) {
+			background: transparent;
+		}
+
+		.fl-table tr td:nth-child(odd) {
+			background: #F8F8F8;
+			border-right: 1px solid #E6E4E4;
+		}
+
+		.fl-table tr td:nth-child(even) {
+			border-right: 1px solid #E6E4E4;
+		}
+
+		.fl-table tbody td {
+			display: block;
+			text-align: center;
+		}
+	}
+
 	.image-block {
 		background: $light;
 		border: 1px solid $border-color;
@@ -17,19 +142,22 @@
 		}
 	}
 
-	.member{
+	.member {
 		padding: 7px;
 		margin-bottom: 30px;
-		.image{
+
+		.image {
 			margin-bottom: 16px;
 			position: relative;
 			overflow: hidden;
-			img{
+
+			img {
 				@include mobile {
 					width: 100% !important;
 				}
 			}
-			.primary-overlay{
+
+			.primary-overlay {
 				position: absolute;
 				top: 100%;
 				left: 0;
@@ -39,7 +167,8 @@
 				opacity: .85;
 				transition: .3s ease;
 			}
-			.socials{
+
+			.socials {
 				position: absolute;
 				top: 100%;
 				display: flex;
@@ -48,48 +177,57 @@
 				width: 100%;
 				height: 100%;
 				transition: .4s ease;
-				ul{
+
+				ul {
 					width: 50%;
-					@include large-desktop{
+
+					@include large-desktop {
 						width: 100%;
 						text-align: center;
 						padding: 0 20px;
 					}
+
 					// @include desktop {
 					// 	width: 61%;
 					// }
 					// @include mobile {
 					// 	width: 31%;
 					// }
-					li{
-						&.list-inline-item:not(:last-child){
+					li {
+						&.list-inline-item:not(:last-child) {
 							margin-right: 7px;
 							margin-bottom: 10px;
-							@include large-desktop{
+
+							@include large-desktop {
 								margin-right: 5px;
 								margin-left: 5px;
 							}
 						}
-						&.list-inline-item:last-child{
-							@include large-desktop{
+
+						&.list-inline-item:last-child {
+							@include large-desktop {
 								margin-right: 5px;
 								margin-left: 5px;
 							}
 						}
-						a{
+
+						a {
 							display: block;
 							height: 50px;
 							width: 50px;
 							text-align: center;
 							border: 1px solid $light;
-							i{
+
+							i {
 								font-size: .9375rem;
 								color: $light;
 								line-height: 50px;
 							}
-							&:hover{
+
+							&:hover {
 								background: $light;
-								i{
+
+								i {
 									color: $black;
 								}
 							}
@@ -97,34 +235,40 @@
 					}
 				}
 			}
-			&:hover{
-				.primary-overlay{
+
+			&:hover {
+				.primary-overlay {
 					top: 0;
 				}
-				.socials{
+
+				.socials {
 					top: 0;
 				}
 			}
 		}
-		.bio{
-			h5{
-				a{
+
+		.bio {
+			h5 {
+				a {
 					font-size: 22px;
 					color: $primary-color;
 					font-weight: 400;
 					margin-bottom: 0;
-					&:hover{
+
+					&:hover {
 						color: $secondary-color;
 					}
 				}
 			}
-			h6{
+
+			h6 {
 				font-size: 17px;
 				color: $primary-color;
 				font-weight: 400;
 				margin-bottom: 0;
 			}
-			p{
+
+			p {
 				font-size: 0.875rem; //14px
 				margin-bottom: 5px;
 			}

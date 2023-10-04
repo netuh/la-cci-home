@@ -1,0 +1,42 @@
+@@include('header.htm')
+
+@@include('blocks/navigation.htm')
+
+@@include('blocks/page-title.htm',{
+	"title"		: "Tutorial: Principe",
+	"page"		: "Tutorials"
+})
+
+<section class="section single-speaker">
+	<div class="container">
+		<div class="block">
+			<div class="row">
+				<div class="col-lg-5 col-md-6 align-self-md-center">
+					<div class="image-block">
+						<img src="images/keynotes/joao_gama-rs.png" class="img-fluid" alt="speaker">
+					</div>
+				</div>
+				<div class="col-lg-7 col-md-6 align-self-center">
+					<div class="content-block">
+						<div class="name">
+							<h3>Recent Advances in Learning from data Streams</h3>
+						</div>
+						<div class="profession">
+							<p>Prof. João Gama</p>
+						</div>
+						<div class="details">
+							<p>
+								Learning from data streams is a hot topic in machine learning and data mining. In this talk, we present two different problems and discuss streaming techniques to solve them. The first problem is the application of data stream techniques to predictive maintenance. We propose a two layer neuro-symbolic approach to explain black-box models. The explanations are oriented toward equipment failures. For the second problem, we present a streaming algorithm for online hyper-parameter tuning. The Self hyper-Parameter Tunning (SPT) algorithm is an optimization algorithm for online hyper-parameter tuning from non-stationary data streams. SPT works as a wrapper over any streaming algorithm and can be used for classification, regression, and recommendation.
+							</p>
+						</div>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+@@include('blocks/footer.htm')
+
+@@include('footer.htm')

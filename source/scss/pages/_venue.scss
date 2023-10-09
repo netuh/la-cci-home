@@ -124,3 +124,130 @@
 		position: absolute;
    	}
 }
+
+.venue2 {
+	padding: 20px 0;
+
+	.content-block {
+		margin-left: 15px;
+
+		@include tablet {
+			text-align: center;
+		}
+
+		h2 {
+			&:after {
+				content: "";
+				width: 60px;
+				height: 3px;
+				background: $primary-color;
+				display: block;
+				margin-top: 10px;
+
+				@include tablet {
+					margin: auto;
+				}
+			}
+
+			margin-bottom: 35px;
+			margin-top: 35px;
+		}
+
+		.description-one {
+			p {
+				color: $black;
+				font-size: 1.0625rem;
+				text-align: justify;
+				line-height: 1.5;
+				margin-bottom: 1em;
+			}
+
+			.float-img {
+				float: left;
+				margin-bottom: 1em;
+				margin-top: 1em;
+				margin-left: 1em;
+				margin-right: 1em;
+				width: 30%;
+				height: auto;
+			}
+
+			.full-img {
+				float: center;
+				margin-bottom: 1em;
+				margin-top: 1em;
+				margin-left: 1em;
+				margin-right: 1em;
+				width: 95%;
+				height: auto;
+			}
+
+			@include tablet {
+				.float-img {
+					float: center;
+					margin-bottom: 1em;
+					margin-top: 1em;
+					margin-left: 1em;
+					margin-right: 1em;
+					width: 90%;
+					height: auto;
+				}
+			}
+
+			margin-bottom: 20px;
+		}
+
+		.text-img {
+			display: grid;
+			//padding: 2rem;
+			grid-template-columns: 300px 1fr;
+			gap: 1rem;
+			align-items: center;
+			margin: 0 auto;
+
+			img {
+				width: 100%;
+				height: auto;
+			}
+			p {
+				color: $black;
+				font-size: 1.0625rem;
+				text-align: justify;
+				line-height: 1.5;
+				margin-bottom: 1em;
+				margin-left: 1em;
+			}
+
+			@include tablet {
+				display: block;
+				font-size: 80%;
+				p {
+					position: relative;
+					padding: 1rem;
+				}
+			}
+		}
+	}
+
+	.description-two {
+		ol li {
+			color: $dark-gray;
+			font-size: 0.9375em;
+		}
+
+		margin-bottom: 30px;
+	}
+
+	.google-map {
+		padding-bottom: 50%;
+		position: relative;
+   	}
+   
+   .google-map iframe {
+		height: 100%;
+		width: 100%;
+		left: 0;
+		top: 0;
+		position: absolute;
+   	}
+}

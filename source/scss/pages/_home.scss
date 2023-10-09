@@ -463,7 +463,7 @@
 		}
 	}
 
-	.schedule-contents {
+	.schedule-contents { // não é aqui
 		margin-top: 30px;
 		margin-bottom: 30px;
 		padding: 30px;
@@ -519,7 +519,7 @@
 						}
 					}
 
-					.venue {
+					.venue2 {
 						@include tablet {
 							display: none;
 						}
@@ -530,7 +530,8 @@
 			}
 
 			li.headings {
-				padding: 22px 40px;
+				padding: 2px 40px;
+				line-height: 1px; // não é isso!
 				background: $primary-color;
 
 				div {
@@ -547,7 +548,7 @@
 				border-color: $border-color;
 
 				.block {
-					padding: 10px 40px;
+					padding: 1px 40px;
 					background: $light;
 					width: 100%;
 					transition: .2s ease-in;
@@ -722,7 +723,7 @@
 							}
 						}
 
-						.venue {
+						.venue2 {
 							width: 18.6%;
 
 							@include tablet {
